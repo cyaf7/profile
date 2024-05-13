@@ -1,0 +1,83 @@
+
+body {
+  background-color: rgb(244, 216, 238);
+  color: rgb(40, 52, 48);
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+
+}
+h1 {
+  color: rgb(75, 30, 50);
+  font-family: "Lora", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+h2 {
+color: rgb(16, 5, 5);
+font-family: "Lora";
+font-size: 20px;
+font-weight: 200px;
+
+}
+#link {
+  color: rgb(129, 60, 104);
+  text-decoration: none;
+  font-family: "Lora";
+  font-size: 20px;
+}
+#link:hover {
+  color: rgb(46, 15, 41);
+}
+i {
+  color: rgb(244, 2, 191);
+  width: 20px;
+}
+i:hover {
+color: rgb(33, 19, 33);
+}
+#name {
+  text-align: center;
+}
+#social-media {
+  text-align: center;
+}
+.card-white {
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 20px 40px rgba(22, 15, 15, 0.1);
+}
+a {
+  text-align: center;
+  margin: 28px 12px;
+}
+.container {
+  width: 500px;
+  margin: 8px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  body {
+    background-color: rgb(234, 137, 192);
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  body {
+    background-color: rgb(243, 5, 223);
+  }
+}
